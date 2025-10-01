@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 8rem;
+    width: 20rem;
+}
+
+.header-menu {
+    padding-top: 3rem;
+    list-style: none;
+    display:flex;
+    gap:2rem;
+    color: white;
+}
+
+.header-menu>li:hover {
+    cursor: pointer;
+    color: tomato;
+    
+}
+

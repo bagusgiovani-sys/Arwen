@@ -1,0 +1,183 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-h {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  display: flex;
+  flex: 3;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.right-h {
+  flex: 1;
+  position: relative;
+  background-color: var(--orange);
+}
+
+.the-best-ad {
+  margin-top: 4rem;
+  background-color: black;
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.the-best-ad > div {
+  position: absolute;
+  border-radius: 3rem;
+  background-color: var(--orange);
+  width: 20%;
+  height: 80%;
+  left: 1rem;
+  z-index: 1;
+}
+
+.the-best-ad > span {
+  z-index: 2;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  color: white;
+  text-overflow: inherit;
+}
+
+.hero-text > div:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.figures {
+  display: flex;
+  gap: 2rem;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.figures > div > span:nth-of-type(1) {
+  font-size: 2rem;
+  color: white;
+}
+
+.figures > div > span:nth-of-type(2) {
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+}
+
+.hero-buttons > :nth-child(1) {
+  border: 6px solid var(--orange);
+}
+
+.hero-buttons > :nth-child(2) {
+  border: 6px solid var(--orange);
+}
+
+.right-h > .btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+
+.heart-rate {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  flex-direction: column;
+  background-color: var(--darkGrey);
+  padding: 1rem;
+  border-radius: 5px;
+  width: fit-content;
+  position: absolute;
+  right: 4rem;
+  top: 7rem;
+}
+
+.heart-rate > :nth-child(1) {
+  width: 3rem;
+  padding-left: 1rem;
+}
+
+.heart-rate > :nth-child(2) {
+  color: var(--orange);
+}
+
+.heart-rate > :nth-child(3) {
+  color: white;
+  font-weight: bold;
+}
+
+.hero-image {
+  position: absolute;
+  right: 8rem;
+  top: 10rem;
+  width: 23rem;
+}
+
+.hero-image-back {
+  position: absolute;
+  top: 4rem;
+  right: 20rem;
+  width: 15rem;
+  z-index: -1;
+}
+
+.calories {
+  display: flex;  
+  gap: 2rem;
+  background-color: var(--caloryCard);
+  border-radius: 5px;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  right: 28rem;
+  top: 32rem;
+}
+
+.calories > img {
+  width: 3rem;
+}
+
+.calories > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calories > div > :nth-child(1) {
+  color: var(--gray);
+}
+
+.calories > div > :nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
+}
