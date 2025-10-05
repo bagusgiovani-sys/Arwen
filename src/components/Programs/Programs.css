@@ -1,11 +1,11 @@
-.program-core {
+.Programs {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 0.2 rem;
+  padding: 0.2rem;
 }
 
-.program-header {
+.programs-header {
   display: flex;
   gap: 5rem;
   font-weight: bold;
@@ -24,11 +24,51 @@
 }
 
 .category{
-   display:flex;
-   flex-direction:column;
-   background-color: var(--darkGrey);
-   padding:2rem;
-   gap: 1rem;
-   color:white;
-  justify-content: center;    
+  display: flex;
+  flex-direction: column;
+  background-color: #222; /* test visible dark background */
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+  transition: all 0.3s ease; /* smooth change */
 }
+
+.category>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+
+
+.category>:nth-child(2){
+    font-size:1rem;
+    font-weight: bold;
+}
+
+.category>:nth-child(3){
+    font-size:0.9rem;
+    line-height: 25px;
+}
+
+
+.join-now{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+
+  
+}
+
+
+.join-now>img{
+  width: 1rem;
+}
+
+.category:hover{
+  background: red;
+  cursor: pointer;
+}
+
+ 
