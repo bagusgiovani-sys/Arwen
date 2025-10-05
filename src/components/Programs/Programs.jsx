@@ -6,7 +6,7 @@ import RightArrow from "../../assets/rightArrow.png";
 const Programs = () => {
   return (
     <div className="Programs" id="program">
-        <div className="program-header">
+        <div className="programs-header">
             <span className="stroke-text"> Explore our </span>
             <span> Program </span>
             <span className="stroke-text"> To shape your </span>
@@ -27,5 +27,4 @@ const Programs = () => {
   );
 };
 
-export default Program;
-      
+export default Programs;
